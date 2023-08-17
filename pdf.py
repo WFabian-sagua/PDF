@@ -9,7 +9,7 @@ from openpyxl.styles import Font, PatternFill, Border, Side
 import os
 
 #Ubicación y nombre del PDF
-pdf_filename = 'nombre de tu archivo.pdf'
+pdf_filename = 'report.pdf' #Puedes reemplazar el nombré del pdf por el nombre de tu archivo pdf
 
 pdf_path = os.path.join(os.path.dirname(__file__), pdf_filename)
 
